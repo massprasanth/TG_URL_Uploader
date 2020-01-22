@@ -2,15 +2,15 @@ import os
 
 class Config(object):
     # get a token from https://chatbase.com
-    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
+    CHAT_BASE_TOKEN = os.environ.get("9cf64d2e-9c70-439e-a66e-8cbb0b524d79", "")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("1021135967:AAFTJxgGDBPbGbye58j-0UfGSsRbLYKxcbo", "")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("1104007", 12345))
+    API_HASH = os.environ.get("4ed43d52342463ad74846b57a28bdc4e")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("749293934", "").split())
     #For Ban
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
